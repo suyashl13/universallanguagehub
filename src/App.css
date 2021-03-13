@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body, html {
+    height: 100%;
+    animation: forwards 2s;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 6px ;
+    transition: padding 0.2s;
+}
+
+.nav-link {
+    transition: padding 0.35s;
+
+}
+
+.nav-item {
+    padding: 1rem;
+    transition: padding 01s;
+}
+
+.navbar-nav {
+    color: wheat;
+}
+
+#quote h3 {
+    padding: 2rem;
+    font-size: larger;
+    font-family: 'Manrope', serif;
+}
+
+#alert-cross {
+    float: right;
+}
+
+#welcome {
+    font-size: 3rem;
+    line-height: 110%;
+    font-weight: 100;
+    font-family: 'Manrope', serif;
+}
+
+#l-in{
+    animation: leftin 2s;
+}
+
+#r-in{
+    animation: rightin 3s;
+}
+
+@keyframes leftin {
+    from {opacity: 0%;left: 100px;}
+    to {left: 0px;}
+}
+
+@keyframes rightin {
+    from {opacity: 0%;right: 100px;}
+    to {right: 0px;}
+}
+
+b {
+    font-size: larger;
+    color: green;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 2px 12px rgba(0, 128, 0, 0.24);
+}
+
+.col-sm-12 .col-md-8 .col-lg-8 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+#indicate {
+    font-size: larger;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    padding: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.box {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.scroll-dwn {
+    margin: 6rem;
+}
+
+.custom-card {
+    border-color: #fff;
+    font-family: 'Manrope', sans-serif;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px 0 rgba(18, 14, 67, 0.2), 0 3px 10px 0 rgba(18, 14, 67, 0.15);
+}
+
+.our-courses {
+    height: 500px;
+    padding-bottom: 5px;
+}
+
+/* Mobile phone  */
+@media only screen and (max-width: 780px) {
+    /* For tablets: */
+    #welcome-footer {text-align: center;}
+    #welcome {text-align: center;}
+    .box {text-align: center;}
+    #quote {text-align: center; font-size: medium;}
+    #righty {text-align: center;}
+    .custom-card{text-align: center;}
+}
