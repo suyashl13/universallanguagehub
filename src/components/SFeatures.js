@@ -34,9 +34,9 @@ export default function SFeatures() {
     <div className="row">
         {
             features.map(
-                (e) => 
+                (e, i) => 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                <ScrollAnimation animateIn="fadeInUp" animateOut="fadeInUp">
+                <ScrollAnimation animateIn={ i%2 == 0 ? "fadeInRight":"fadeInLeft"} animateOnce={true}>
                 <div class="card custom-card mt-4">
                         <div className="card-title">
                         <span style={{fontWeight:"bolds", fontSize:"20px"}}>
@@ -56,4 +56,3 @@ export default function SFeatures() {
     </div>
     )
 }
-// universallanguagehub
