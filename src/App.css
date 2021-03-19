@@ -47,24 +47,6 @@ body, html {
     font-family: 'Manrope', serif;
 }
 
-/* #l-in{
-    animation: leftin 2s;
-}
-
-#r-in{
-    animation: rightin 3s;
-}
-
-@keyframes leftin {
-    from {opacity: 0%;left: 100px;}
-    to {left: 0px;}
-}
-
-@keyframes rightin {
-    from {opacity: 0%;right: 100px;}
-    to {right: 0px;}
-} */
-
 b {
     font-size: larger;
     color: green;
@@ -102,7 +84,6 @@ b {
 .box {
     margin: auto;
     width: 50%;
-    padding: 10px;
 }
 
 
