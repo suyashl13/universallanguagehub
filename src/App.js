@@ -5,7 +5,8 @@ import "animate.css/animate.min.css";
 
 function App() {
   return (
-    <HomePage/>
+    <h1>5XX Internal server error</h1>  
+//     <HomePage/>
   );
 }
 
